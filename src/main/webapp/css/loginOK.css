@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* common */
+
+body {
+	margin: 0;
+	font-size: 100%;
+}
+
+body p {
+	font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+/* header */
+.header {
+	width: 100vw;
+	background-color: #3aabd2;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.log {
+	width: 100px;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	flex: 1 1;
+	text-align: center;
+	height: 100%;
+	margin: 0;
+	font-size: 45px;
+	color: #fff;
+}
+
+.title p {
+	font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+/* container */
+.container {
+	display: flex;
+	justify-content: center;
+	margin: 50px 400px;
+	padding: 10px 50px 50px;
+	border: 2px solid #d1d0d0;
+	border-radius: 60px;
+	box-shadow: 0 3px 3px rgb(0 0 0 / 30%);
+}
+
+.container p {
+	font-size: 35px;
+	font-family: 'BIZ UDPGothic', sans-serif;
+	color: #5b5454;
+	margin: 0 0 30px 0;
+}
+
+.text :nth-child(1) {
+	margin-top: 130px;
+}
+
+.text a {
+	text-decoration: none;
+	display: block;
+}
+
+.login_botton {
+	background-color: #3AABD2;
+	padding: 25px 100px;
+	text-align: center;
+	width: 120px;
+	color: #fff;
+	font-size: 30px;
+	border-radius: 50px;
+	margin-top: 100px;
+	margin-left: 25px;
+	cursor: pointer;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2), 0 -4px 5px -2px #6d95ce inset;
+}
+
+.charactor_icon {
+	padding-top: 200px;
+}
+
+.polar_bear_icon {
+	width: 200px;
+	height: 200px;
+	padding: 85px 0 0 30px;
+}
