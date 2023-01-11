@@ -74,7 +74,7 @@ public class AccountCreateServlet extends HttpServlet {
 			session.setAttribute("accountLib", account);
 			// フォワード
 			RequestDispatcher dispatcher = request.getRequestDispatcher(
-					"/WEB-INF/jsp/account_confirmation.jsp");
+					"/WEB-INF/jsp/account_registration_completion.jsp");
 			dispatcher.forward(request, response);
 		} else {
 			// フォワード

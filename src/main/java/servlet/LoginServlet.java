@@ -62,7 +62,9 @@ public class LoginServlet extends HttpServlet {
 			dispatcher.forward(request, response);
 		} else { // ログイン失敗時
 			// リダイレクト
-			response.sendRedirect("/support_handbook2/LoginServlet");
+			/* response.sendRedirect("/support_handbook2/LoginServlet"); */
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/loginNG.jsp");
+			dispatcher.forward(request, response);
 		}
 	}
 }
